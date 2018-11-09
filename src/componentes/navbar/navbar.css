@@ -1,0 +1,82 @@
+.navbar_{
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    z-index: 10;
+    background-color: #01B8F1;
+}
+.nav_{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+.nav_logo{
+    margin-left: 1rem;
+}
+.nav_logo img {
+    padding: 1em;
+    color: white;
+    height: 20px;
+    width: 20px;
+}
+.nav_logo a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.nav_items a{
+    color: #ffffff;
+    font-family: "Circular Std";
+    text-decoration: none;
+}
+.nav_items a:hover,
+.nav_items a:active {
+    border-top: 4px solid #ffffff;
+    padding: 13px;
+}
+.nav_items ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.nav_items li{
+    padding: 0 1rem;
+}
+.spacer{
+    flex: 1;
+}
+.nav_items .buy_now{
+    text-align: center;
+    color: #FFFFFF;	
+    font-family: "Circular Std";	
+    font-size: 9px;	
+    font-weight: bold;	
+    letter-spacing: 2.7px;	
+    line-height: 36px;	
+    height: 36px;	
+    width: 124px;	
+    border-radius: 18px;	
+    background-color: #037497;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.nav_items .fas{
+    color: #FFFFFF;
+    display: block;
+    align-self: center;	
+    margin-right: 2%;
+}
+@media (max-width:768px) {
+    .nav_items{
+        display: none;
+    }
+}
+@media (min-width:769px) {
+    .btn_nav{
+        display: none;
+    }
+}
+

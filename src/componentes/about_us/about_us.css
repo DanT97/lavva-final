@@ -1,0 +1,143 @@
+.about_us{
+    overflow: hidden;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    background-color: #3C3C3C;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+.title_{
+    margin-top: 5%;
+    position: absolute;
+    color: #EE4294;	
+    font-family: "Avenir LT Std";
+    font-size: 14px;	
+    letter-spacing: 2.4px;
+    line-height: 14px;	
+    text-align: center;
+}
+
+.text_{
+    margin-top: 10%;
+    position: absolute;
+    width: 920px;	
+    color: #787878;
+    font-family: "Circular Std";	
+    font-size: 42px;	
+    font-weight: 900;	
+    letter-spacing: -1px;	
+    line-height: 54px;	
+  
+}
+.c_logos{
+    margin-top: 28%;
+    display: flex;
+    position: absolute;
+    flex-flow: row nowrap;
+    align-items: center;
+    
+}
+.google{
+    height: 32px;	
+    width: 97.21px;
+    flex: 1 1 auto;
+    margin-right: 60px
+    
+}
+.redbull{
+
+    height: 20px;	
+    width: 84.27px;	
+    opacity: 0.17;
+    flex: 1 1 auto
+    
+}
+
+.pink_4yc{
+    margin-top: 35%;	
+    color: #FFFFFF;	
+    font-family: Avenir LT Std;	
+    font-size: 12px;	
+    font-weight: 900;	
+    letter-spacing: 2.4px;
+    line-height: 48px;	
+    text-align: center;
+    height: 48px;	
+    width: 231px;	
+    border-radius: 24px;	
+    background-color: #EE4294;
+}
+
+@media screen and (max-width: 996px) {
+   
+    .title_{
+        margin-top: 15%;
+        align-self: center;
+    }
+    
+    .text_{
+        margin-top: 25%;
+        position: absolute;
+        width: 90%;	
+        align-self: center;
+      
+    }
+    .c_logos{
+        margin-top: 65%;
+                
+    }
+  
+    .pink_4yc{
+        margin-top: 80%;
+        align-self: center;
+ 
+    }
+    @media screen and (max-width: 600px) {
+        .title_{
+            margin-top: 20%;
+            align-self: center;
+        }
+        
+        .text_{
+            margin-top: 35%;
+            position: absolute;
+            width: 90%;	
+            align-self: center;
+            font-size: 25px;	
+          
+        }
+        .c_logos{
+            margin-top: 100%;
+                    
+        }
+      
+        .pink_4yc{
+            margin-top: 120%;
+            align-self: center;
+     
+        }
+    }
+    @media screen and (max-width: 320px) {
+        .title_{
+            margin-top: 20%;
+            
+        }
+        
+        .text_{
+            margin-top: 35%;
+            font-size: 17px;	
+          
+        }
+        .c_logos{
+            margin-top: 95%;
+                    
+        }
+      
+        .pink_4yc{
+            margin-top: 120%;
+        }
+    }
+}

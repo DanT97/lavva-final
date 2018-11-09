@@ -1,3 +1,25 @@
+@font-face{
+  src: url(./assets/fonts/Circular\ Std/CircularStd-Black.otf);
+  font-family: Circular Std;
+}
+@font-face{
+  src: url(./assets/fonts/Avenir\ LT\ Std/AvenirLTStd-Black.otf);
+  font-family: Avenir LT Std;
+}
+@font-face {
+  src: url(./assets/fonts/Texas\ Grunge\ demo.ttf);
+  font-family: Texas Grunge Demo;
+}
+@font-face {
+  src: url(./assets/fonts/This-Regular.otf);
+  font-family: This;
+}
+@font-face {
+  src: url(./assets/fonts/Oswald/Oswald-Light.ttf);
+  font-family: Oswald;
+}
+
+
 .App {
   text-align: center;
 }
